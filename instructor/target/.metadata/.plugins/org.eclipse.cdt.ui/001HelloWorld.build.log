@@ -1,0 +1,9 @@
+12:46:38 **** Clean-only build of configuration Debug for project 001HelloWorld ****
+make -j3 clean 
+rm -rf *
+rm: no se puede borrar 'Src': El archivo de texto está ocupado
+make: [makefile:64: clean] Error 1 (ignored)
+ 
+
+12:46:38 Build Finished. 0 errors, 0 warnings. (took 875ms)
+

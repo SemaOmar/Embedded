@@ -1,0 +1,67 @@
+!SESSION 2020-06-03 12:44:34.597 -----------------------------------------------
+eclipse.buildId=Version 1.3.0
+java.version=1.8.0_242
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
+Command-line arguments:  -data /home/omar/Documentos/compartida/curso_embbededsys/Embedded-C/instructor/target -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2020-06-03 12:44:48.697
+!MESSAGE Log4j initialized with config file /home/omar/Documentos/compartida/curso_embbededsys/Embedded-C/instructor/target/.metadata/.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2020-06-03 12:44:51.743
+!MESSAGE com.st.stm32cube.ide.mcu.ide/META-INF/version/build_ref file not found, build reference will not be reported into properties
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2020-06-03 12:44:54.136
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-06-03 12:45:50.061
+!MESSAGE Indexed '001HelloWorld' (3 sources, 51 headers) in 9,59 sec: 2.044 declarations; 2.687 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-06-03 12:45:51.744
+!MESSAGE Indexed '010led_toggle_bitfields' (3 sources, 53 headers) in 1,67 sec: 2.000 declarations; 2.810 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-06-03 12:45:51.874
+!MESSAGE Indexed '005led_toggle' (3 sources, 1 headers) in 0,111 sec: 72 declarations; 52 references; 11 unresolved inclusions; 0 syntax errors; 22 unresolved names (15 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-06-03 12:45:53.201
+!MESSAGE Indexed '003Add' (3 sources, 51 headers) in 1,15 sec: 2.047 declarations; 2.689 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-06-03 12:45:53.685
+!MESSAGE Indexed '006pin_read' (3 sources, 52 headers) in 0,476 sec: 1.937 declarations; 2.752 references; 0 unresolved inclusions; 1 syntax errors; 1 unresolved names (0,021 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-06-03 12:45:54.144
+!MESSAGE Indexed '011keypad' (3 sources, 54 headers) in 0,444 sec: 2.081 declarations; 2.955 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-06-03 12:45:54.484
+!MESSAGE Indexed '009packed_Vsnonpacked' (3 sources, 51 headers) in 0,33 sec: 2.050 declarations; 2.706 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-06-03 12:45:55.000
+!MESSAGE Indexed '007volatile' (3 sources, 55 headers) in 0,502 sec: 1.955 declarations; 2.706 references; 0 unresolved inclusions; 2 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-06-03 12:45:55.630
+!MESSAGE Indexed '002Sizeof' (3 sources, 51 headers) in 0,604 sec: 2.044 declarations; 2.691 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-06-03 12:45:56.123
+!MESSAGE Indexed '004led_on' (3 sources, 52 headers) in 0,485 sec: 1.934 declarations; 2.741 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-06-03 12:45:56.558
+!MESSAGE Indexed '008button_ISR' (3 sources, 54 headers) in 0,429 sec: 2.089 declarations; 2.913 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.jface 2 0 2020-06-03 12:46:39.176
+!MESSAGE Ignored reentrant call while viewer is busy. This is only logged once per viewer instance, but similar calls will still be ignored.
+!STACK 0
+java.lang.RuntimeException
+	at org.eclipse.jface.viewers.ColumnViewer.checkBusy(ColumnViewer.java:764)
+	at org.eclipse.jface.viewers.ColumnViewer.update(ColumnViewer.java:543)
+	at org.eclipse.ui.navigator.CommonViewer.update(CommonViewer.java:515)
+	at org.eclipse.jface.viewers.StructuredViewer.update(StructuredViewer.java:1965)
+	at org.eclipse.ui.internal.navigator.resources.nested.NestedProjectsLabelProvider.lambda$2(NestedProjectsLabelProvider.java:87)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1609)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1596)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
